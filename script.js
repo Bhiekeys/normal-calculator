@@ -72,5 +72,5 @@ const acHandler = () => {
 }
 
 const delHandler = () => {
-    input.value = result.innerHTML.slice(0, -1)
+    input.value = input.value.slice(0, -1)
 }
