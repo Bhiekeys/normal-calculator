@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+         <div class="calculator">
+                <div class="screen" id="result"> 
+                 <input type="text" id="input">
+                </div>
+                <div> 
+                    <button onclick={acHandler()} id="ac">AC</button>
+                    <button onclick={delHandler()} id="del">DEL</button>
+                    <button onclick={dotHandler()} id="dot">.</button>
+                    <button onclick={divideHandler()} id="divide">/</button>
+                </div>  
+                <div> 
+                    <button onclick={sevenHandler()} id="seven">7</button>
+                    <button onclick={eightHandler()} id="eight">8</button>
+                    <button onclick={nineHandler()} id="nine">9</button>
+                    <button onclick={multiplyHandler()} id="multiply">*</button>
+                </div> 
+                <div> 
+                    <button onclick={fourHandler()} id="four">4</button>
+                    <button onclick={fiveHandler()} id="five">5</button>
+                    <button onclick={sixHandler()} id="six">6</button>
+                    <button onclick={minusHandler()} id="minus">-</button>
+                </div> 
+                <div> 
+                    <button onclick={oneHandler()} id="one">1</button>
+                    <button onclick={twoHandler()} id="two">2</button>
+                    <button onclick={threeHandler()} id="three">3</button>
+                    <button onclick={plusHandler()} id="plus">+</button>
+                </div>
+                <div> 
+                    <button onclick={zerosHandler()} id="zeros">00</button>
+                    <button onclick={zeroHandler()} id="zero">0</button>
+                    <button onclick={equalHandler()} id="equal">=</button>
+                </div> 
+            
+         </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
