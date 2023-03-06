@@ -32,7 +32,7 @@ const eightHandler = () => {
 }
 
 const nineHandler = () => {
-    input,value += nine.innerHTML
+    input.value += nine.innerHTML
 }
 
 const zeroHandler = () => {
